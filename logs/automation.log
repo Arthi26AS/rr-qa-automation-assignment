@@ -1,0 +1,379 @@
+2026-01-09 17:26:25,902 | INFO | test.lifecycle | Test execution start - Scenario heading
+2026-01-09 17:26:25,905 | INFO | test.lifecycle | === SCENARIO: User selects last page directly (known defect) ===
+2026-01-09 17:26:25,905 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:26:33,753 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:26:33,756 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:26:39,303 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:26:39,999 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:26:43,500 | INFO | pages.discover_page | Found 14 total links, looking for page numbers
+2026-01-09 17:26:43,940 | INFO | pages.discover_page | Found 7 numeric page links: [1, 2, 3, 4, 527, 528, 529]
+2026-01-09 17:26:43,941 | INFO | pages.discover_page | Clicking last page number: 529
+2026-01-09 17:26:44,260 | INFO | pages.discover_page | Clicked page number 529
+2026-01-09 17:26:44,261 | INFO | pages.discover_page | Successfully clicked last page number: 529
+2026-01-09 17:27:02,692 | INFO | test.lifecycle | Test execution start - Scenario heading
+2026-01-09 17:27:02,694 | INFO | test.lifecycle | === SCENARIO: Verify Top Rated category filter works ===
+2026-01-09 17:27:02,694 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:27:08,959 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:27:08,964 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:27:10,628 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:27:14,443 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:27:15,456 | INFO | step.verification | step_verify_results called
+2026-01-09 17:27:20,988 | INFO | step.verification | Found 20 results
+2026-01-09 17:27:20,989 | INFO | step.verification | About to call debug_year_values()
+2026-01-09 17:27:21,129 | INFO | pages.discover_page | DEBUG - Start year: '1900', End year: '2025'
+2026-01-09 17:27:21,129 | INFO | pages.discover_page | DEBUG - Same year allowed: False
+2026-01-09 17:27:21,129 | INFO | step.verification | Finished calling debug_year_values()
+2026-01-09 17:27:21,130 | INFO | test.lifecycle | Scenario passed: Verify Top Rated category filter works
+2026-01-09 17:27:21,130 | INFO | test.lifecycle | Added passed test result to report: Verify Top Rated category filter works
+2026-01-09 17:27:21,130 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:27:23,589 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:27:23,594 | INFO | test.lifecycle | === SCENARIO: Verify TV Shows type filter works ===
+2026-01-09 17:27:23,595 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:27:29,349 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:27:29,359 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:27:34,420 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:27:35,055 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:27:37,073 | INFO | step.verification | step_verify_results called
+2026-01-09 17:27:42,476 | INFO | step.verification | Found 20 results
+2026-01-09 17:27:42,476 | INFO | step.verification | About to call debug_year_values()
+2026-01-09 17:27:42,659 | INFO | pages.discover_page | DEBUG - Start year: '1900', End year: '2025'
+2026-01-09 17:27:42,660 | INFO | pages.discover_page | DEBUG - Same year allowed: False
+2026-01-09 17:27:42,660 | INFO | step.verification | Finished calling debug_year_values()
+2026-01-09 17:27:42,661 | INFO | test.lifecycle | Scenario passed: Verify TV Shows type filter works
+2026-01-09 17:27:42,661 | INFO | test.lifecycle | Added passed test result to report: Verify TV Shows type filter works
+2026-01-09 17:27:42,662 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:27:45,651 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:27:45,652 | INFO | test.lifecycle | === SCENARIO: Access category via direct URL (known defect) ===
+2026-01-09 17:27:45,652 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:27:54,027 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:27:55,794 | INFO | step.verification | step_verify_results called
+2026-01-09 17:28:26,478 | INFO | step.verification | Found 0 results
+2026-01-09 17:28:26,479 | ERROR | test.lifecycle | Test failure / exception occurred
+2026-01-09 17:28:26,479 | ERROR | test.lifecycle | Scenario failed: Access category via direct URL (known defect)
+2026-01-09 17:28:26,675 | INFO | test.lifecycle | Added failed test result to report: Access category via direct URL (known defect)
+2026-01-09 17:28:26,680 | INFO | test.lifecycle | HTML test report generated: reports/test_report.html
+2026-01-09 17:28:26,681 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:28:29,118 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:28:29,121 | INFO | test.lifecycle | === SCENARIO: Verify year range allows same start and end year selection ===
+2026-01-09 17:28:29,121 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:28:34,322 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:28:34,326 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:28:39,563 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:28:40,234 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:28:41,233 | INFO | pages.discover_page | Setting start year to 1900
+2026-01-09 17:28:43,005 | INFO | pages.discover_page | Start year 1900 set successfully
+2026-01-09 17:28:44,007 | INFO | pages.discover_page | Attempting to set end year to 1900
+2026-01-09 17:28:44,874 | INFO | pages.discover_page | End year 1900 set successfully
+2026-01-09 17:28:46,050 | INFO | pages.discover_page | FINAL RESULT - Start: '1900', End: '2025', Same: False
+2026-01-09 17:28:46,053 | INFO | step.verification | step_verify_results called
+2026-01-09 17:28:51,511 | INFO | step.verification | Found 20 results
+2026-01-09 17:28:51,512 | INFO | step.verification | Verifying year range filtering worked correctly
+2026-01-09 17:28:51,755 | INFO | pages.discover_page | Year filter verification - Expected: 1900-1900, Actual: 1900-2025
+2026-01-09 17:28:51,774 | ERROR | test.lifecycle | Test failure / exception occurred
+2026-01-09 17:28:51,774 | ERROR | test.lifecycle | Scenario failed: Verify year range allows same start and end year selection
+2026-01-09 17:28:52,153 | INFO | test.lifecycle | Added failed test result to report: Verify year range allows same start and end year selection
+2026-01-09 17:28:52,155 | INFO | test.lifecycle | HTML test report generated: reports/test_report.html
+2026-01-09 17:28:52,156 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:28:54,723 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:29:03,712 | INFO | test.lifecycle | Test execution start - Scenario heading
+2026-01-09 17:29:03,722 | INFO | test.lifecycle | === SCENARIO: User navigates to next page of results ===
+2026-01-09 17:29:03,722 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:29:10,423 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:29:10,428 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:29:17,228 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:29:17,878 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:29:20,402 | INFO | pages.discover_page | Clicked Next page button
+2026-01-09 17:29:26,914 | INFO | test.lifecycle | Scenario passed: User navigates to next page of results
+2026-01-09 17:29:26,914 | INFO | test.lifecycle | Added passed test result to report: User navigates to next page of results
+2026-01-09 17:29:26,915 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:29:29,411 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:29:29,412 | INFO | test.lifecycle | === SCENARIO: User navigates back to previous page ===
+2026-01-09 17:29:29,412 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:29:36,761 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:29:36,766 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:29:43,124 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:29:43,817 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:29:47,228 | INFO | pages.discover_page | Clicked Next page button
+2026-01-09 17:29:50,007 | INFO | pages.discover_page | Clicked Previous page button
+2026-01-09 17:30:00,116 | INFO | test.lifecycle | Scenario passed: User navigates back to previous page
+2026-01-09 17:30:00,117 | INFO | test.lifecycle | Added passed test result to report: User navigates back to previous page
+2026-01-09 17:30:00,117 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:30:02,800 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:30:02,804 | INFO | test.lifecycle | === SCENARIO: Direct page number navigation ===
+2026-01-09 17:30:02,804 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:30:10,944 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:30:10,949 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:30:19,123 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:30:19,735 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:30:21,483 | INFO | pages.discover_page | Clicked page number 3
+2026-01-09 17:30:27,162 | INFO | step.verification | Verified 20 results displayed for page 3
+2026-01-09 17:30:27,333 | INFO | test.lifecycle | Scenario passed: Direct page number navigation
+2026-01-09 17:30:27,334 | INFO | test.lifecycle | Added passed test result to report: Direct page number navigation
+2026-01-09 17:30:27,334 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:30:30,249 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:30:30,251 | INFO | test.lifecycle | === SCENARIO: User selects last page directly (known defect) ===
+2026-01-09 17:30:30,252 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:30:37,214 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:30:37,222 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:30:43,253 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:30:43,898 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:30:47,808 | INFO | pages.discover_page | Found 14 total links, looking for page numbers
+2026-01-09 17:30:49,204 | INFO | pages.discover_page | Found 7 numeric page links: [1, 2, 3, 4, 527, 528, 529]
+2026-01-09 17:30:49,205 | INFO | pages.discover_page | Clicking last page number: 529
+2026-01-09 17:30:49,554 | INFO | pages.discover_page | Clicked page number 529
+2026-01-09 17:30:49,555 | INFO | pages.discover_page | Successfully clicked last page number: 529
+2026-01-09 17:31:04,350 | INFO | test.lifecycle | Test execution start - Scenario heading
+2026-01-09 17:31:04,353 | INFO | test.lifecycle | === SCENARIO: Verify Top Rated category filter works ===
+2026-01-09 17:31:04,354 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:31:11,860 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:31:11,872 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:31:29,563 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:31:30,294 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:31:30,816 | INFO | step.verification | step_verify_results called
+2026-01-09 17:31:36,484 | INFO | step.verification | Found 20 results
+2026-01-09 17:31:36,484 | INFO | step.verification | About to call debug_year_values()
+2026-01-09 17:31:36,716 | INFO | pages.discover_page | DEBUG - Start year: '1900', End year: '2025'
+2026-01-09 17:31:36,717 | INFO | pages.discover_page | DEBUG - Same year allowed: False
+2026-01-09 17:31:36,717 | INFO | step.verification | Finished calling debug_year_values()
+2026-01-09 17:31:36,718 | INFO | test.lifecycle | Scenario passed: Verify Top Rated category filter works
+2026-01-09 17:31:36,718 | INFO | test.lifecycle | Added passed test result to report: Verify Top Rated category filter works
+2026-01-09 17:31:36,719 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:31:40,076 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:31:40,078 | INFO | test.lifecycle | === SCENARIO: Verify TV Shows type filter works ===
+2026-01-09 17:31:40,078 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:31:48,700 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:31:48,704 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:31:53,936 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:31:54,539 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:31:55,180 | INFO | step.verification | step_verify_results called
+2026-01-09 17:32:00,538 | INFO | step.verification | Found 20 results
+2026-01-09 17:32:00,538 | INFO | step.verification | About to call debug_year_values()
+2026-01-09 17:32:00,743 | INFO | pages.discover_page | DEBUG - Start year: '1900', End year: '2025'
+2026-01-09 17:32:00,744 | INFO | pages.discover_page | DEBUG - Same year allowed: False
+2026-01-09 17:32:00,744 | INFO | step.verification | Finished calling debug_year_values()
+2026-01-09 17:32:00,745 | INFO | test.lifecycle | Scenario passed: Verify TV Shows type filter works
+2026-01-09 17:32:00,745 | INFO | test.lifecycle | Added passed test result to report: Verify TV Shows type filter works
+2026-01-09 17:32:00,746 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:32:03,445 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:32:03,450 | INFO | test.lifecycle | === SCENARIO: Access category via direct URL (known defect) ===
+2026-01-09 17:32:03,450 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:32:18,843 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:32:21,968 | INFO | step.verification | step_verify_results called
+2026-01-09 17:32:52,678 | INFO | step.verification | Found 0 results
+2026-01-09 17:32:52,682 | ERROR | test.lifecycle | Test failure / exception occurred
+2026-01-09 17:32:52,682 | ERROR | test.lifecycle | Scenario failed: Access category via direct URL (known defect)
+2026-01-09 17:32:52,864 | INFO | test.lifecycle | Added failed test result to report: Access category via direct URL (known defect)
+2026-01-09 17:32:52,865 | INFO | test.lifecycle | HTML test report generated: reports/test_report.html
+2026-01-09 17:32:52,866 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:32:55,551 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:32:55,553 | INFO | test.lifecycle | === SCENARIO: Verify year range allows same start and end year selection ===
+2026-01-09 17:32:55,554 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:33:05,606 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:33:05,618 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:33:10,588 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:33:11,240 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:33:14,147 | INFO | pages.discover_page | Setting start year to 1900
+2026-01-09 17:33:16,087 | INFO | pages.discover_page | Start year 1900 set successfully
+2026-01-09 17:33:17,088 | INFO | pages.discover_page | Attempting to set end year to 1900
+2026-01-09 17:33:17,995 | INFO | pages.discover_page | End year 1900 set successfully
+2026-01-09 17:33:19,209 | INFO | pages.discover_page | FINAL RESULT - Start: '1900', End: '2025', Same: False
+2026-01-09 17:33:19,212 | INFO | step.verification | step_verify_results called
+2026-01-09 17:33:24,761 | INFO | step.verification | Found 20 results
+2026-01-09 17:33:24,762 | INFO | step.verification | Verifying year range filtering worked correctly
+2026-01-09 17:33:24,978 | INFO | pages.discover_page | Year filter verification - Expected: 1900-1900, Actual: 1900-2025
+2026-01-09 17:33:25,008 | ERROR | test.lifecycle | Test failure / exception occurred
+2026-01-09 17:33:25,008 | ERROR | test.lifecycle | Scenario failed: Verify year range allows same start and end year selection
+2026-01-09 17:33:25,973 | INFO | test.lifecycle | Added failed test result to report: Verify year range allows same start and end year selection
+2026-01-09 17:33:25,976 | INFO | test.lifecycle | HTML test report generated: reports/test_report.html
+2026-01-09 17:33:25,977 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:33:28,862 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:33:43,408 | INFO | test.lifecycle | Test execution start - Scenario heading
+2026-01-09 17:33:43,412 | INFO | test.lifecycle | === SCENARIO: User navigates to next page of results ===
+2026-01-09 17:33:43,412 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:33:51,212 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:33:51,218 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:33:57,770 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:33:58,485 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:34:01,766 | INFO | pages.discover_page | Clicked Next page button
+2026-01-09 17:34:09,288 | INFO | test.lifecycle | Scenario passed: User navigates to next page of results
+2026-01-09 17:34:09,289 | INFO | test.lifecycle | Added passed test result to report: User navigates to next page of results
+2026-01-09 17:34:09,289 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:34:12,509 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:34:12,514 | INFO | test.lifecycle | === SCENARIO: User navigates back to previous page ===
+2026-01-09 17:34:12,516 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:34:23,402 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:34:23,409 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:34:30,506 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:34:31,305 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:34:34,935 | INFO | pages.discover_page | Clicked Next page button
+2026-01-09 17:34:37,842 | INFO | pages.discover_page | Clicked Previous page button
+2026-01-09 17:34:44,300 | INFO | test.lifecycle | Scenario passed: User navigates back to previous page
+2026-01-09 17:34:44,301 | INFO | test.lifecycle | Added passed test result to report: User navigates back to previous page
+2026-01-09 17:34:44,301 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:34:48,455 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:34:48,458 | INFO | test.lifecycle | === SCENARIO: Direct page number navigation ===
+2026-01-09 17:34:48,458 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:35:00,963 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:35:00,969 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:35:09,953 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:35:10,744 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:35:12,091 | INFO | pages.discover_page | Clicked page number 3
+2026-01-09 17:35:18,693 | INFO | step.verification | Verified 20 results displayed for page 3
+2026-01-09 17:35:18,938 | INFO | test.lifecycle | Scenario passed: Direct page number navigation
+2026-01-09 17:35:18,939 | INFO | test.lifecycle | Added passed test result to report: Direct page number navigation
+2026-01-09 17:35:18,939 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:35:21,807 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:35:21,809 | INFO | test.lifecycle | === SCENARIO: User selects last page directly (known defect) ===
+2026-01-09 17:35:21,810 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:35:41,079 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:35:41,090 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:35:50,799 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:35:51,479 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:35:55,163 | INFO | pages.discover_page | Found 14 total links, looking for page numbers
+2026-01-09 17:35:55,835 | INFO | pages.discover_page | Found 7 numeric page links: [1, 2, 3, 4, 527, 528, 529]
+2026-01-09 17:35:55,836 | INFO | pages.discover_page | Clicking last page number: 529
+2026-01-09 17:35:56,278 | INFO | pages.discover_page | Clicked page number 529
+2026-01-09 17:35:56,279 | INFO | pages.discover_page | Successfully clicked last page number: 529
+2026-01-09 17:36:20,436 | INFO | test.lifecycle | Test execution start - Scenario heading
+2026-01-09 17:36:20,440 | INFO | test.lifecycle | === SCENARIO: User selects last page directly (known defect) ===
+2026-01-09 17:36:20,440 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:36:28,283 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:36:28,289 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:36:34,675 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:36:35,286 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:36:38,706 | INFO | pages.discover_page | Found 14 total links, looking for page numbers
+2026-01-09 17:36:39,821 | INFO | pages.discover_page | Found 7 numeric page links: [1, 2, 3, 4, 527, 528, 529]
+2026-01-09 17:36:39,822 | INFO | pages.discover_page | Clicking last page number: 529
+2026-01-09 17:36:40,192 | INFO | pages.discover_page | Clicked page number 529
+2026-01-09 17:36:40,192 | INFO | pages.discover_page | Successfully clicked last page number: 529
+2026-01-09 17:36:40,197 | ERROR | test.lifecycle | Test failure / exception occurred
+2026-01-09 17:36:40,202 | ERROR | test.lifecycle | Scenario failed: User selects last page directly (known defect)
+2026-01-09 17:36:40,480 | INFO | test.lifecycle | Added failed test result to report: User selects last page directly (known defect)
+2026-01-09 17:36:40,488 | INFO | test.lifecycle | HTML test report generated: reports/test_report.html
+2026-01-09 17:36:40,489 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:36:45,050 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:36:45,054 | INFO | test.lifecycle | All scenarios completed - Test execution finished
+2026-01-09 17:36:45,054 | INFO | test.lifecycle | Total test results collected: 1
+2026-01-09 17:36:45,056 | INFO | test.lifecycle | HTML test report generated: reports/test_report.html
+2026-01-09 17:36:45,056 | INFO | test.lifecycle | Generated HTML report with 1 test results
+2026-01-09 17:37:32,336 | INFO | test.lifecycle | Test execution start - Scenario heading
+2026-01-09 17:37:32,339 | INFO | test.lifecycle | === SCENARIO: Verify Top Rated category filter works ===
+2026-01-09 17:37:32,339 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:37:38,112 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:37:38,118 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:37:43,202 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:37:43,833 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:37:44,102 | INFO | step.verification | step_verify_results called
+2026-01-09 17:37:49,546 | INFO | step.verification | Found 20 results
+2026-01-09 17:37:49,547 | INFO | step.verification | About to call debug_year_values()
+2026-01-09 17:37:49,703 | INFO | pages.discover_page | DEBUG - Start year: '1900', End year: '2025'
+2026-01-09 17:37:49,704 | INFO | pages.discover_page | DEBUG - Same year allowed: False
+2026-01-09 17:37:49,705 | INFO | step.verification | Finished calling debug_year_values()
+2026-01-09 17:37:49,705 | INFO | test.lifecycle | Scenario passed: Verify Top Rated category filter works
+2026-01-09 17:37:49,706 | INFO | test.lifecycle | Added passed test result to report: Verify Top Rated category filter works
+2026-01-09 17:37:49,706 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:37:52,015 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:37:52,017 | INFO | test.lifecycle | === SCENARIO: Verify TV Shows type filter works ===
+2026-01-09 17:37:52,018 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:37:58,135 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:37:58,137 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:38:04,223 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:38:04,832 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:38:05,301 | INFO | step.verification | step_verify_results called
+2026-01-09 17:38:10,753 | INFO | step.verification | Found 20 results
+2026-01-09 17:38:10,754 | INFO | step.verification | About to call debug_year_values()
+2026-01-09 17:38:10,911 | INFO | pages.discover_page | DEBUG - Start year: '1900', End year: '2025'
+2026-01-09 17:38:10,912 | INFO | pages.discover_page | DEBUG - Same year allowed: False
+2026-01-09 17:38:10,912 | INFO | step.verification | Finished calling debug_year_values()
+2026-01-09 17:38:10,913 | INFO | test.lifecycle | Scenario passed: Verify TV Shows type filter works
+2026-01-09 17:38:10,914 | INFO | test.lifecycle | Added passed test result to report: Verify TV Shows type filter works
+2026-01-09 17:38:10,914 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:38:13,317 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:38:13,319 | INFO | test.lifecycle | === SCENARIO: Access category via direct URL (known defect) ===
+2026-01-09 17:38:13,319 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:38:19,311 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:38:21,150 | INFO | step.verification | step_verify_results called
+2026-01-09 17:38:51,762 | INFO | step.verification | Found 0 results
+2026-01-09 17:38:51,765 | ERROR | test.lifecycle | Test failure / exception occurred
+2026-01-09 17:38:51,765 | ERROR | test.lifecycle | Scenario failed: Access category via direct URL (known defect)
+2026-01-09 17:38:51,948 | INFO | test.lifecycle | Added failed test result to report: Access category via direct URL (known defect)
+2026-01-09 17:38:51,950 | INFO | test.lifecycle | HTML test report generated: reports/test_report.html
+2026-01-09 17:38:51,951 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:38:54,311 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:38:54,314 | INFO | test.lifecycle | === SCENARIO: Verify year range allows same start and end year selection ===
+2026-01-09 17:38:54,314 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:38:59,972 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:38:59,975 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:39:04,991 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:39:05,632 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:39:06,363 | INFO | pages.discover_page | Setting start year to 1900
+2026-01-09 17:39:07,331 | INFO | pages.discover_page | Start year 1900 set successfully
+2026-01-09 17:39:08,332 | INFO | pages.discover_page | Attempting to set end year to 1900
+2026-01-09 17:39:08,904 | INFO | pages.discover_page | End year 1900 set successfully
+2026-01-09 17:39:09,989 | INFO | pages.discover_page | FINAL RESULT - Start: '1900', End: '2025', Same: False
+2026-01-09 17:39:09,992 | INFO | step.verification | step_verify_results called
+2026-01-09 17:39:15,315 | INFO | step.verification | Found 20 results
+2026-01-09 17:39:15,316 | INFO | step.verification | Verifying year range filtering worked correctly
+2026-01-09 17:39:15,470 | INFO | pages.discover_page | Year filter verification - Expected: 1900-1900, Actual: 1900-2025
+2026-01-09 17:39:15,492 | ERROR | test.lifecycle | Test failure / exception occurred
+2026-01-09 17:39:15,493 | ERROR | test.lifecycle | Scenario failed: Verify year range allows same start and end year selection
+2026-01-09 17:39:15,839 | INFO | test.lifecycle | Added failed test result to report: Verify year range allows same start and end year selection
+2026-01-09 17:39:15,840 | INFO | test.lifecycle | HTML test report generated: reports/test_report.html
+2026-01-09 17:39:15,841 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:39:18,184 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:39:18,189 | INFO | test.lifecycle | === SCENARIO: User navigates to next page of results ===
+2026-01-09 17:39:18,189 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:39:23,199 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:39:23,201 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:39:30,217 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:39:30,906 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:39:32,262 | INFO | pages.discover_page | Clicked Next page button
+2026-01-09 17:39:38,629 | INFO | test.lifecycle | Scenario passed: User navigates to next page of results
+2026-01-09 17:39:38,630 | INFO | test.lifecycle | Added passed test result to report: User navigates to next page of results
+2026-01-09 17:39:38,630 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:39:41,068 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:39:41,070 | INFO | test.lifecycle | === SCENARIO: User navigates back to previous page ===
+2026-01-09 17:39:41,071 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:39:47,702 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:39:47,704 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:39:54,293 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:39:54,943 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:39:56,462 | INFO | pages.discover_page | Clicked Next page button
+2026-01-09 17:39:57,427 | INFO | pages.discover_page | Clicked Previous page button
+2026-01-09 17:40:03,500 | INFO | test.lifecycle | Scenario passed: User navigates back to previous page
+2026-01-09 17:40:03,500 | INFO | test.lifecycle | Added passed test result to report: User navigates back to previous page
+2026-01-09 17:40:03,501 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:40:05,913 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:40:05,915 | INFO | test.lifecycle | === SCENARIO: Direct page number navigation ===
+2026-01-09 17:40:05,916 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:40:10,937 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:40:10,939 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:40:15,397 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:40:16,031 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:40:17,491 | INFO | pages.discover_page | Clicked page number 3
+2026-01-09 17:40:23,296 | INFO | step.verification | Verified 20 results displayed for page 3
+2026-01-09 17:40:23,417 | INFO | test.lifecycle | Scenario passed: Direct page number navigation
+2026-01-09 17:40:23,418 | INFO | test.lifecycle | Added passed test result to report: Direct page number navigation
+2026-01-09 17:40:23,418 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:40:25,991 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:40:25,993 | INFO | test.lifecycle | === SCENARIO: User selects last page directly (known defect) ===
+2026-01-09 17:40:25,993 | INFO | test.lifecycle | Browser launch
+2026-01-09 17:40:31,867 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 17:40:31,873 | INFO | pages.discover_page | Page navigation
+2026-01-09 17:40:32,610 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 17:40:36,477 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 17:40:40,437 | INFO | pages.discover_page | Found 14 total links, looking for page numbers
+2026-01-09 17:40:40,755 | INFO | pages.discover_page | Found 7 numeric page links: [1, 2, 3, 4, 527, 528, 529]
+2026-01-09 17:40:40,756 | INFO | pages.discover_page | Clicking last page number: 529
+2026-01-09 17:40:40,967 | INFO | pages.discover_page | Clicked page number 529
+2026-01-09 17:40:40,967 | INFO | pages.discover_page | Successfully clicked last page number: 529
+2026-01-09 17:40:40,970 | ERROR | test.lifecycle | Test failure / exception occurred
+2026-01-09 17:40:40,971 | ERROR | test.lifecycle | Scenario failed: User selects last page directly (known defect)
+2026-01-09 17:40:41,154 | INFO | test.lifecycle | Added failed test result to report: User selects last page directly (known defect)
+2026-01-09 17:40:41,156 | INFO | test.lifecycle | HTML test report generated: reports/test_report.html
+2026-01-09 17:40:41,156 | INFO | test.lifecycle | Browser teardown
+2026-01-09 17:40:43,553 | INFO | test.lifecycle | Browser closed
+2026-01-09 17:40:43,555 | INFO | test.lifecycle | All scenarios completed - Test execution finished
+2026-01-09 17:40:43,555 | INFO | test.lifecycle | Total test results collected: 8
+2026-01-09 17:40:43,557 | INFO | test.lifecycle | HTML test report generated: reports/test_report.html
+2026-01-09 17:40:43,557 | INFO | test.lifecycle | Generated HTML report with 8 test results

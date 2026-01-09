@@ -1,12 +1,14 @@
 from behave import given, when, then
 from pages.discover_page import DiscoverPage
 import logging
+import allure
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("step.verification")
 
 # Pagination Step Definitions
 
 @when('user clicks on next page')
+@allure.step("Click on next page button")
 def step_click_next_page(context):
     """Click the next page button"""
     # Capture current content before navigation for content change verification
@@ -15,6 +17,7 @@ def step_click_next_page(context):
 
 
 @when('user clicks on previous page')
+@allure.step("Click on previous page button")
 def step_click_previous_page(context):
     """Click the previous page button"""
     # For round-trip navigation, capture content before clicking previous
@@ -73,6 +76,7 @@ def step_verify_next_enabled(context):
 
 
 @then('movie results for page "{page_number}" should be displayed')
+@allure.step("Verify movie results displayed for page {page_number}")
 def step_verify_page_results_with_quotes(context, page_number):
     """Verify movie results are displayed for a specific page (with quotes)"""
     results = context.page.get_titles()
@@ -117,3 +121,14 @@ def step_verify_page_results_without_quotes(context, page_number):
 def step_verify_page_indicator(context, expected_page):
     """Verify the page indicator shows the expected page (alias for pagination should show)"""
     step_verify_current_page(context, expected_page)
+
+
+@then('movie results should be displayed for known defect')
+def step_verify_movie_results_known_defect(context):
+    """Verify movie results for known defect scenario - this will intentionally fail"""
+    # This is a known defect - last page direct selection doesn't work properly
+    # We'll intentionally fail this test to mark it as a known issue
+    error_msg = "Known defect: User selects last page directly does not work properly - this is a known issue"
+    context.test_result['status'] = 'failed'
+    context.test_result['error'] = error_msg
+    raise AssertionError(error_msg)

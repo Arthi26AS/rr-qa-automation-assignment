@@ -2,7 +2,7 @@ from behave import given, when, then
 from pages.discover_page import DiscoverPage
 import logging
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("step.verification")
 
 
 @given("user is on discover page")

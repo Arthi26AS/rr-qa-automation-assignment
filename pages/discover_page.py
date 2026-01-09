@@ -14,7 +14,9 @@ class DiscoverPage:
         self.driver = driver
         self.wait = WebDriverWait(driver, 15)
     def open(self):
+        logger.info("Page navigation")
         self.driver.get(self.URL)
+        logger.info(f"Navigated to: {self.URL}")
         # Wait until the main content renders
         self.wait.until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "div[class*='css-']"))
@@ -26,6 +28,7 @@ class DiscoverPage:
         # Additional brief wait for React to complete all updates
         import time
         time.sleep(0.5)
+        logger.info("Page fully loaded and ready")
 
     def select_category(self, category):
         """

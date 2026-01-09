@@ -1,0 +1,92 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>QA Automation Test Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            .passed { color: green; }
+            .failed { color: red; }
+            .unknown { color: orange; }
+            table { border-collapse: collapse; width: 100%; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            img { max-width: 300px; max-height: 200px; }
+        </style>
+    </head>
+    <body>
+        <h1>QA Automation Test Report</h1>
+        <p><strong>Feature:</strong> Filter functionality</p>
+        <p><strong>Total Tests:</strong> 8</p>
+        <p><strong>Passed:</strong> <span class="passed">5</span></p>
+        <p><strong>Failed:</strong> <span class="failed">3</span></p>
+
+        <h2>Test Results</h2>
+        <table>
+            <tr>
+                <th>Test Name</th>
+                <th>Status</th>
+                <th>Error Message</th>
+                <th>Screenshot</th>
+            </tr>
+    
+            <tr>
+                <td>Verify Top Rated category filter works</td>
+                <td class="passed">PASSED</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>Verify TV Shows type filter works</td>
+                <td class="passed">PASSED</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>Access category via direct URL (known defect)</td>
+                <td class="failed">FAILED</td>
+                <td>N/A</td>
+                <td><img src="Access category via direct URL (known defect).png" alt="Screenshot"></td>
+            </tr>
+        
+            <tr>
+                <td>Verify year range allows same start and end year selection</td>
+                <td class="failed">FAILED</td>
+                <td>N/A</td>
+                <td><img src="Verify year range allows same start and end year selection.png" alt="Screenshot"></td>
+            </tr>
+        
+            <tr>
+                <td>User navigates to next page of results</td>
+                <td class="passed">PASSED</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>User navigates back to previous page</td>
+                <td class="passed">PASSED</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>Direct page number navigation</td>
+                <td class="passed">PASSED</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>User selects last page directly (known defect)</td>
+                <td class="failed">FAILED</td>
+                <td>N/A</td>
+                <td><img src="User selects last page directly (known defect).png" alt="Screenshot"></td>
+            </tr>
+        
+        </table>
+    </body>
+    </html>
+    
