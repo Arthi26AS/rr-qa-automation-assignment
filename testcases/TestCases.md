@@ -155,6 +155,24 @@ Priority: Medium
 
 ---
 
+### TC-018: Verify year range allows same start and end year selection
+Objective:
+Validate that the application properly handles when the start and end year range are set to the same year.
+
+Steps:
+1. Open the application.
+2. Select "TV Shows" from the type filter.
+3. Set the year range from "1900" to "1900" (same start and end year).
+
+Expected Result:
+The page should display TV shows released in the year 1900 or handle the same year selection gracefully without breaking the UI.
+
+Priority: Medium
+
+**Note:** This is currently a bug - the application does not properly handle same start and end year selection.
+
+---
+
 ## Pagination
 
 ### TC-011: Verify navigation to the next page

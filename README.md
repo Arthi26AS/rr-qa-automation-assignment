@@ -18,6 +18,7 @@ This repository contains automated test suites for the TMDB Discover demo site (
 - **TC-004**: Verify Top Rated category filter works
 - **TC-007**: Verify TV Shows type filter works
 - **TC-008**: Verify filtering by year of release (with boundary testing)
+- **TC-018**: Verify year range allows same start and end year selection
 
 ### Pagination
 - **TC-011**: Verify navigation to the next page (@smoke test)
@@ -138,7 +139,7 @@ The Allure report will be available at `http://localhost:8080` and includes:
 - **Description**: Application doesn't properly handle when start and end year are the same
 - **Impact**: Users cannot filter content for a specific single year
 - **Status**: Bug - test fails and captures screenshot for debugging
-- **Test Case**: `Verify year range allows same start and end year selection`
+- **Test Case**: **TC-018**: Verify year range allows same start and end year selection
 
 ## 📁 Project Structure
 

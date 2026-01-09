@@ -377,3 +377,25 @@
 2026-01-09 17:40:43,555 | INFO | test.lifecycle | Total test results collected: 8
 2026-01-09 17:40:43,557 | INFO | test.lifecycle | HTML test report generated: reports/test_report.html
 2026-01-09 17:40:43,557 | INFO | test.lifecycle | Generated HTML report with 8 test results
+2026-01-09 18:02:38,070 | INFO | test.lifecycle | Test execution start - Scenario heading
+2026-01-09 18:02:38,079 | INFO | test.lifecycle | === SCENARIO: Verify year range allows same start and end year selection ===
+2026-01-09 18:02:38,081 | INFO | test.lifecycle | Browser launch
+2026-01-09 18:02:50,685 | INFO | test.lifecycle | Browser launched successfully
+2026-01-09 18:02:50,689 | INFO | pages.discover_page | Page navigation
+2026-01-09 18:02:56,462 | INFO | pages.discover_page | Navigated to: https://tmdb-discover.surge.sh/
+2026-01-09 18:02:57,230 | INFO | pages.discover_page | Page fully loaded and ready
+2026-01-09 18:02:58,212 | INFO | pages.discover_page | Setting start year to 1900
+2026-01-09 18:03:00,046 | INFO | pages.discover_page | Start year 1900 set successfully
+2026-01-09 18:03:01,048 | INFO | pages.discover_page | Attempting to set end year to 1900
+2026-01-09 18:03:01,979 | INFO | pages.discover_page | End year 1900 set successfully
+2026-01-09 18:03:03,176 | INFO | pages.discover_page | FINAL RESULT - Start: '1900', End: '2025', Same: False
+2026-01-09 18:03:03,179 | INFO | step.verification | step_verify_results called
+2026-01-09 18:03:08,634 | INFO | step.verification | Found 20 results
+2026-01-09 18:03:08,635 | INFO | step.verification | Verifying year range filtering worked correctly
+2026-01-09 18:03:08,827 | INFO | pages.discover_page | Year filter verification - Expected: 1900-1900, Actual: 1900-2025
+2026-01-09 18:03:08,850 | ERROR | test.lifecycle | Test failure / exception occurred
+2026-01-09 18:03:08,851 | ERROR | test.lifecycle | Scenario failed: Verify year range allows same start and end year selection
+2026-01-09 18:03:09,809 | INFO | test.lifecycle | Added failed test result to report: Verify year range allows same start and end year selection
+2026-01-09 18:03:09,812 | INFO | test.lifecycle | HTML test report generated: reports/test_report.html
+2026-01-09 18:03:09,812 | INFO | test.lifecycle | Browser teardown
+2026-01-09 18:03:14,829 | INFO | test.lifecycle | Browser closed
