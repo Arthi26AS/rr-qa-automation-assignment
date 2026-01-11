@@ -3,3 +3,5 @@ selenium
 webdriver-manager
 pytest-html
 python-dotenv
+behave
+allure-behave
